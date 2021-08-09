@@ -1,0 +1,53 @@
+body {
+  color: #2f80ed;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+}
+img 
+{
+display: block;
+width: 520px;
+height: 190;
+margin-right: auto;
+margin-left: auto;
+margin-top: 110px;
+margin-bottom: 0;
+
+}
+.text 
+{
+font-size: 120px;
+line-height: 140px;
+font-weight: 400;
+text-align: center;
+margin-right: 440px;
+margin-left: 440px;
+margin-top: 0;
+margin-bottom: 0;
+
+}
+.hr 
+{
+display: none;
+}
+.text:hover +.hr
+{
+display:block;
+text-align: center;
+margin-right: 440px;
+margin-left: 440px;
+font-size: 16px;
+line-height: 20px;
+font-weight: 400;
+opacity: O;
+transition: .4s;
+margin-top: 10px;
+}
+.ft 
+{
+text-align: center;
+margin-right: 440px;
+margin-left: 440px;
+margin-bottom: 30px;
+margin-top: 19%;
+display: block;
+}
